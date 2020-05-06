@@ -63,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
                 _mPlayer.start();
                 _timer = null;
                 _btnMain.setText("Start");
+                _btnMain.setTextColor(Color.BLACK);
             }
         };
     }
